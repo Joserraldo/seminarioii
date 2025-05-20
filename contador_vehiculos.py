@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 
 # Cargar video
-cap = cv2.VideoCapture("test.mp4")
+cap = cv2.VideoCapture("test2.mp4")
 
 # Diccionario para almacenar IDs únicos
 conteo_ids = {
