@@ -3,7 +3,8 @@ from ultralytics import YOLO
 import json
 from datetime import datetime
 import numpy as np
-
+#r para reiniciar
+#q para salir (con eso ya se genera el json)
 class SemaforoInteligente:
     def __init__(self):
         
